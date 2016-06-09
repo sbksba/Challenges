@@ -2,6 +2,26 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+  Input
+  2
+  4
+  html text/html
+  png image/png
+  test.html
+  noextension
+  portrait.png
+  doc.TXT
+  
+  Output
+  
+  text/html
+  UNKNOWN
+  image/png
+  UNKNOWN
+*/
+
+
 // Represents an association between an extension, and its mime type
 struct pair { char *ext; char *mime; };
 
